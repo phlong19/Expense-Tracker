@@ -38,12 +38,11 @@ const ExpenseForm = props => {
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-
+    // child communicate up to parent
     props.onSaveExpenseData(expense);
     setEnteredTitle('');
     setEnteredAmount('');
     setEnteredDate('');
-    // console.log(expense);
   };
 
   return (
