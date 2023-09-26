@@ -35,7 +35,7 @@ const ExpenseForm = props => {
 
     const expense = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     // child communicate up to parent

@@ -27,6 +27,12 @@ const DUMMY_EXPENSES = [
     amount: 78.5,
     date: new Date(2019, 11, 3),
   },
+  {
+    id: 5,
+    title: 'Water Bottle',
+    amount: 5,
+    date: new Date(2022, 10, 19),
+  },
 ];
 
 const App = () => {
