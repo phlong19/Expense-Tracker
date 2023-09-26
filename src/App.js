@@ -30,7 +30,7 @@ const DUMMY_EXPENSES = [
   {
     id: 5,
     title: 'Water Bottle',
-    amount: 5,
+    amount: 150,
     date: new Date(2022, 10, 19),
   },
   {
@@ -38,6 +38,12 @@ const DUMMY_EXPENSES = [
     title: 'Courses',
     amount: 32,
     date: new Date(2020, 8, 12),
+  },
+  {
+    id: 7,
+    title: 'A pair of glasses',
+    amount: 100,
+    date: new Date(2023, 4, 16),
   },
 ];
 
