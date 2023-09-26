@@ -5,13 +5,13 @@ import NewExpense from './components/NewExpense/NewExpense';
 const DUMMY_EXPENSES = [
   {
     id: 1,
-    title: 'Winter Shopping',
+    title: 'Cup of Coffee',
     amount: 274.13,
-    date: new Date(2023, 9, 22),
+    date: new Date(2023, 9, 13),
   },
   {
     id: 2,
-    title: 'Old Laptop',
+    title: 'A spacecraft',
     amount: 600,
     date: new Date(2022, 5, 7),
   },
@@ -23,7 +23,7 @@ const DUMMY_EXPENSES = [
   },
   {
     id: 4,
-    title: 'Some Books',
+    title: 'Chinese Virus',
     amount: 78.5,
     date: new Date(2019, 11, 3),
   },
@@ -32,6 +32,12 @@ const DUMMY_EXPENSES = [
     title: 'Water Bottle',
     amount: 5,
     date: new Date(2022, 10, 19),
+  },
+  {
+    id: 6,
+    title: 'Courses',
+    amount: 32,
+    date: new Date(2020, 8, 12),
   },
 ];
 
